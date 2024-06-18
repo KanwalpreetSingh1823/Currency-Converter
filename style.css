@@ -74,16 +74,17 @@ form .btn{
     cursor:pointer;
 }
 
-@media screen and (max-width : 1600px){
-    h1{
-        font-size:2.10rem;
+@media screen and (max-width :320px){
+    .container{
+        width:42vh;
     }
 }
 @media screen and (max-width : 1200px){
     h1{
-        font-size:1.80rem;
+        font-size:1.65rem;
     }
 }
+
 /* @media screen and (min-width : 1200px){
 
     h1{
@@ -101,4 +102,7 @@ p{
 
 form input:hover{
     border-color: black;
+}
+select{
+    background: none;
 }
