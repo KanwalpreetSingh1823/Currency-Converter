@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    background:url("https://png.pngtree.com/thumb_back/fh260/background/20220512/pngtree-growing-chart-against-the-background-of-the-usa-america-flag-candlestick-image_1298780.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height:45vh;
+    width:45vh
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form input,select,button{
+    width:100%;
+    border:none;
+    outline: none;
+    border-radius:0.75rem;
+}
+
+form input{
+    border:1px solid Lightgray;
+    font-size: 1rem;
+    height:3rem;
+    padding-left:0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-Container img{
+    max-width: 2rem;
+}
+.select-Container{
+    display:flex;
+    width:6rem;
+    border-radius: 0.5rem;
+    border:1px solid Lightgray;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.select-Container select{
+    font-size: 1rem;
+    width:auto;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+}
+form .btn{
+    height:3rem;
+    background-color: rgb(139, 48, 224);
+    color:white;
+    font-size: 1.15rem;
+    cursor:pointer;
+}
+
+@media screen and (max-width : 1600px){
+    h1{
+        font-size:2.10rem;
+    }
+}
+@media screen and (max-width : 1200px){
+    h1{
+        font-size:1.80rem;
+    }
+}
+/* @media screen and (min-width : 1200px){
+
+    h1{
+        font-size:2rem;
+    }
+.msg{
+    padding-left:1.75rem;
+
+} */
+
+p{
+    font-size:medium;;
+    font-size: 1.1rem;
+}
+
+form input:hover{
+    border-color: black;
+}
